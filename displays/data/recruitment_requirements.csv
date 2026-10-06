@@ -1,0 +1,7 @@
+﻿year,entry_level_rate,mean_experience,no_education_rate,bachelor_or_above_rate,ma_or_above_rate,exp_specified_rate,denominator_n,unit
+2021,72.2745,0.977221,17.6581,26.5370,1.1005,99.6520,69243,rate=percent;mean_experience=level_0-4;wage=CNY_per_month
+2022,72.4462,0.963439,23.1083,25.6910,1.2261,100.0000,122506,rate=percent;mean_experience=level_0-4;wage=CNY_per_month
+2023,71.1196,1.003114,23.8940,25.6674,1.2537,100.0000,62932,rate=percent;mean_experience=level_0-4;wage=CNY_per_month
+2024,70.9570,0.988628,21.6436,28.3921,2.0910,100.0000,64370,rate=percent;mean_experience=level_0-4;wage=CNY_per_month
+2025,69.4446,1.036940,25.5902,26.1072,1.5832,100.0000,93038,rate=percent;mean_experience=level_0-4;wage=CNY_per_month
+2026,68.1038,1.083601,29.2370,24.6220,1.3019,100.0000,34258,rate=percent;mean_experience=level_0-4;wage=CNY_per_month

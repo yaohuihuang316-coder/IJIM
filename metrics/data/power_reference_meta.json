@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "script": "RQ3_2_power_mc.py",
+    "generator_source": "09_二级问题/04_运行痕迹/c3/c3_size_mc.py",
+    "generator_source_sha256_16": "9d9ddb09afb62de1",
+    "functions_reused": [
+      "crv1",
+      "demean",
+      "design_raw",
+      "make_stacked",
+      "prepare",
+      "sim"
+    ],
+    "K_EFF": 10.0,
+    "waves": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "TEFF_YEARS": {
+      "4": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "3": [
+        2023,
+        2024,
+        2025
+      ]
+    },
+    "REPS_power": 400,
+    "REPS_calibration": 500,
+    "R_perm": 199,
+    "main_scheme": "A2_within_period_cross_unit_on_xw",
+    "alt_scheme": "C_within_unit_cyclic_shift_raw",
+    "legacy_scheme_shown_for_audit": "A_orig_within_period_cross_unit_raw",
+    "seed_base": 20260923,
+    "alpha": 0.05,
+    "power_target": 0.8,
+    "beta_std_grid": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.4,
+      0.5,
+      0.7,
+      1.0
+    ],
+    "b_raw_per_beta_std": 1.0291868612208268,
+    "criterion": "尺寸校准置换判据：z = (β̂ − 置换零分布中位)/置换零分布 sd，临界 c₀.₀₅ 由 b=0 空模型实测 95 分位给出",
+    "note_T_eff": "T_eff=4 = 估计窗口内被解释年个数（2022–2025）；≠ 波次 5。见设计稿 §2.1.0"
+  }
+}

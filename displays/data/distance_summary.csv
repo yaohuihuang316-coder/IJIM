@@ -1,0 +1,4 @@
+﻿metric,estimate,lower_ci,upper_ci,unit
+uncorrected_tv,0.654281,0.652676,0.656179,TV
+corrected_tv,0.556982,0.528403,0.589979,TV
+baseline_uniform_independent,0.302522,NA,NA,TV

@@ -1,0 +1,5 @@
+# Observed environment used for this release, not bundled dependencies
+numpy==2.5.3
+pandas==3.0.6
+matplotlib==3.11.2
+Pillow==12.3.0

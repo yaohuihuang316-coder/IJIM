@@ -1,0 +1,13 @@
+﻿year,ai_total_rate,ai_tool_rate,ai_rd_rate,ai_general_rate,denominator_n,rule,unit
+2021,1.3604,0.0000,0.4159,0.9445,69243,contains,percent_of_advertisements
+2022,1.0367,0.0000,0.2579,0.7787,122506,contains,percent_of_advertisements
+2023,1.0408,0.0095,0.2892,0.7421,62932,contains,percent_of_advertisements
+2024,1.5116,0.0140,0.5670,0.9306,64370,contains,percent_of_advertisements
+2025,1.5380,0.1217,0.3077,1.3487,93038,contains,percent_of_advertisements
+2026,2.0346,0.2306,0.5634,1.8944,34258,contains,percent_of_advertisements
+2021,1.3604,NA,NA,NA,69243,exact,percent_of_advertisements; exact rule = ai_requirement_type is a SINGLE head (ai_rd+ai_tool+ai_general == 1). Head-rate columns are NA for exact rows: this package only recomputed the TOTAL sensitivity.
+2022,1.0367,NA,NA,NA,122506,exact,percent_of_advertisements; exact rule = ai_requirement_type is a SINGLE head (ai_rd+ai_tool+ai_general == 1). Head-rate columns are NA for exact rows: this package only recomputed the TOTAL sensitivity.
+2023,1.0408,NA,NA,NA,62932,exact,percent_of_advertisements; exact rule = ai_requirement_type is a SINGLE head (ai_rd+ai_tool+ai_general == 1). Head-rate columns are NA for exact rows: this package only recomputed the TOTAL sensitivity.
+2024,1.5116,NA,NA,NA,64370,exact,percent_of_advertisements; exact rule = ai_requirement_type is a SINGLE head (ai_rd+ai_tool+ai_general == 1). Head-rate columns are NA for exact rows: this package only recomputed the TOTAL sensitivity.
+2025,1.3175,NA,NA,NA,93038,exact,percent_of_advertisements; exact rule = ai_requirement_type is a SINGLE head (ai_rd+ai_tool+ai_general == 1). Head-rate columns are NA for exact rows: this package only recomputed the TOTAL sensitivity.
+2026,1.4303,NA,NA,NA,34258,exact,percent_of_advertisements; exact rule = ai_requirement_type is a SINGLE head (ai_rd+ai_tool+ai_general == 1). Head-rate columns are NA for exact rows: this package only recomputed the TOTAL sensitivity.

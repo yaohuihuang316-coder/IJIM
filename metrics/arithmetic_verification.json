@@ -1,0 +1,1597 @@
+{
+  "assessment": "Usable with boundaries",
+  "checks_passed": 193,
+  "checks_total": 193,
+  "failed_checks": [],
+  "checks": [
+    {
+      "name": "sha256:data/recruitment_occupation_year.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sha256:data/occupation_precision_profiles.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sha256:data/recruitment_decomposition_reference.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "sha256:data/recruitment_annual_reference.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "public_window_observed_rows",
+      "passed": true,
+      "detail": 4893
+    },
+    {
+      "name": "precision_sample_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "TV_new_precision",
+      "passed": true,
+      "detail": {
+        "recomputed": 0.5569816003782312,
+        "published_6dp": 0.556982
+      }
+    },
+    {
+      "name": "corrected_shares",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "PSI_percentile_rank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "MRI_percentile_rank",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "descriptive_quadrants",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recruitment_grid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Kitagawa:ai_tool:2021-2022",
+      "passed": true,
+      "detail": {
+        "composition": 0.0,
+        "within": 0.0,
+        "delta": 0.0,
+        "closure": 0.0,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:ai_tool:2022-2023",
+      "passed": true,
+      "detail": {
+        "composition": -9.501128687849742e-07,
+        "within": 9.62911158561364e-05,
+        "delta": 9.534100298735144e-05,
+        "closure": -1.3552527156068805e-20,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:ai_tool:2023-2024",
+      "passed": true,
+      "detail": {
+        "composition": -1.5322646769387467e-05,
+        "within": 5.979832857308778e-05,
+        "delta": 4.4475681803700314e-05,
+        "closure": 0.0,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:ai_tool:2021-2024",
+      "passed": true,
+      "detail": {
+        "composition": -2.6854922597234393e-05,
+        "within": 0.00016667160738828614,
+        "delta": 0.00013981668479105174,
+        "closure": 0.0,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:ai_rate:2021-2022",
+      "passed": true,
+      "detail": {
+        "composition": -0.0013034083984387605,
+        "within": -0.0019340156731635627,
+        "delta": -0.0032374240716023235,
+        "closure": 4.336808689942018e-19,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:ai_rate:2022-2023",
+      "passed": true,
+      "detail": {
+        "composition": -0.0001230726334656258,
+        "within": 0.0001642929510274196,
+        "delta": 4.1220317561794096e-05,
+        "closure": -2.981555974335137e-19,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:ai_rate:2023-2024",
+      "passed": true,
+      "detail": {
+        "composition": 0.0015453420903464186,
+        "within": 0.00316233556150031,
+        "delta": 0.004707677651846728,
+        "closure": 0.0,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:ai_rate:2021-2024",
+      "passed": true,
+      "detail": {
+        "composition": -9.816330503628866e-05,
+        "within": 0.0016096372028424873,
+        "delta": 0.0015114738978061991,
+        "closure": -4.336808689942018e-19,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:entry_rate:2021-2022",
+      "passed": true,
+      "detail": {
+        "composition": 0.0003786965789656756,
+        "within": 0.0013392413744098561,
+        "delta": 0.001717937953375502,
+        "closure": 2.992397996059992e-17,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:entry_rate:2022-2023",
+      "passed": true,
+      "detail": {
+        "composition": 0.0010116368244542943,
+        "within": -0.014277900347638208,
+        "delta": -0.013266263523183887,
+        "closure": -2.6020852139652106e-17,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:entry_rate:2023-2024",
+      "passed": true,
+      "detail": {
+        "composition": 0.010536918100501301,
+        "within": -0.012163454570061743,
+        "delta": -0.0016265364695604502,
+        "closure": 8.023096076392733e-18,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:entry_rate:2021-2024",
+      "passed": true,
+      "detail": {
+        "composition": 0.01581722787897259,
+        "within": -0.02899208991834142,
+        "delta": -0.01317486203936884,
+        "closure": 1.0408340855860843e-17,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:exp_level_mean:2021-2022",
+      "passed": true,
+      "detail": {
+        "composition": -0.005125750131686914,
+        "within": -0.008656975734258481,
+        "delta": -0.013782725865945405,
+        "closure": 1.0408340855860843e-17,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:exp_level_mean:2022-2023",
+      "passed": true,
+      "detail": {
+        "composition": -0.003661492385358303,
+        "within": 0.04333743968963434,
+        "delta": 0.039675947304276045,
+        "closure": -6.938893903907228e-18,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:exp_level_mean:2023-2024",
+      "passed": true,
+      "detail": {
+        "composition": -0.030597340286306722,
+        "within": 0.01611111049238098,
+        "delta": -0.014486229793925736,
+        "closure": -5.204170427930421e-18,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:exp_level_mean:2021-2024",
+      "passed": true,
+      "detail": {
+        "composition": -0.05086506089971055,
+        "within": 0.06227205254411546,
+        "delta": 0.011406991644404903,
+        "closure": 6.938893903907228e-18,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:ba_plus:2021-2022",
+      "passed": true,
+      "detail": {
+        "composition": -0.0040923662230669304,
+        "within": -0.004367552809073795,
+        "delta": -0.008459919032140724,
+        "closure": -1.734723475976807e-18,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:ba_plus:2022-2023",
+      "passed": true,
+      "detail": {
+        "composition": -0.0027886363221498963,
+        "within": 0.0025526408920304943,
+        "delta": -0.00023599543011940295,
+        "closure": 9.215718466126788e-19,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:ba_plus:2023-2024",
+      "passed": true,
+      "detail": {
+        "composition": -0.016210775566074163,
+        "within": 0.04345798660598861,
+        "delta": 0.027247211039914454,
+        "closure": -6.938893903907228e-18,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:ba_plus:2021-2024",
+      "passed": true,
+      "detail": {
+        "composition": -0.02612699032219972,
+        "within": 0.04467828689985404,
+        "delta": 0.01855129657765433,
+        "closure": -6.938893903907228e-18,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:wage_mean_log:2021-2022",
+      "passed": true,
+      "detail": {
+        "composition": -0.012356371090770223,
+        "within": 0.04238201804077821,
+        "delta": 0.03002564695000815,
+        "closure": -1.6653345369377348e-16,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:wage_mean_log:2022-2023",
+      "passed": true,
+      "detail": {
+        "composition": -0.0057583947694100895,
+        "within": -0.0012169563356052265,
+        "delta": -0.006975351105015329,
+        "closure": 1.3010426069826053e-17,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:wage_mean_log:2023-2024",
+      "passed": true,
+      "detail": {
+        "composition": 0.008569268680693581,
+        "within": 0.11445486653034942,
+        "delta": 0.12302413521104286,
+        "closure": 1.3877787807814457e-16,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "Kitagawa:wage_mean_log:2021-2024",
+      "passed": true,
+      "detail": {
+        "composition": -0.011672716399118072,
+        "within": 0.1577471474551539,
+        "delta": 0.14607443105603568,
+        "closure": 1.3877787807814457e-16,
+        "common_strata": 29,
+        "dropped_strata": 0,
+        "original_mass0": 1.0,
+        "original_mass1": 1.0
+      }
+    },
+    {
+      "name": "within_dominance",
+      "passed": true,
+      "detail": {
+        "positive": 20,
+        "denominator": 24,
+        "zero_zero_not_success": true
+      }
+    },
+    {
+      "name": "2025_target_composition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:交通服务",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:产品经理",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:人力/行政",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:医疗/护理",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:咨询/顾问",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:媒体/创意",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:安保/物业",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:实习/管培/兼职",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:客服/售后",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:家政/保洁/保姆",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:建筑/施工",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:技术/工程",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:教育/培训",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:法务/合规",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:演艺/礼仪",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:物流/配送/驾驶",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:生产/制造/技工",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:算法/人工智能",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:管理/高管",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:美容/美发",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:翻译/语言",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:设计",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:财务/审计",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:质量/质检",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:运营/市场/内容",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:采购/供应链",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:金融/保险",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:销售/门店",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_rate:餐饮/厨房",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_annual_rate:ai_rate",
+      "passed": true,
+      "detail": {
+        "recomputed_percent": 1.5380286197350574,
+        "reported_percent": 1.538,
+        "valid_strata": 21,
+        "target_mass_retained": 0.9808943109081528
+      }
+    },
+    {
+      "name": "2025_endpoint:ai_tool:交通服务",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:产品经理",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:人力/行政",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:医疗/护理",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:咨询/顾问",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:媒体/创意",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:安保/物业",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:实习/管培/兼职",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:客服/售后",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:家政/保洁/保姆",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:建筑/施工",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:技术/工程",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:教育/培训",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:法务/合规",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:演艺/礼仪",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:物流/配送/驾驶",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:生产/制造/技工",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:算法/人工智能",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:管理/高管",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:美容/美发",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:翻译/语言",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:设计",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:财务/审计",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:质量/质检",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:运营/市场/内容",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:采购/供应链",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:金融/保险",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:销售/门店",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ai_tool:餐饮/厨房",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_annual_rate:ai_tool",
+      "passed": true,
+      "detail": {
+        "recomputed_percent": 0.12170875053619153,
+        "reported_percent": 0.1217,
+        "valid_strata": 21,
+        "target_mass_retained": 0.9808943109081528
+      }
+    },
+    {
+      "name": "2025_endpoint:entry_rate:交通服务",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:产品经理",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:人力/行政",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:医疗/护理",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:咨询/顾问",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:媒体/创意",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:安保/物业",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:实习/管培/兼职",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:客服/售后",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:家政/保洁/保姆",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:建筑/施工",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:技术/工程",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:教育/培训",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:法务/合规",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:演艺/礼仪",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:物流/配送/驾驶",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:生产/制造/技工",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:算法/人工智能",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:管理/高管",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:美容/美发",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:翻译/语言",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:设计",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:财务/审计",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:质量/质检",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:运营/市场/内容",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:采购/供应链",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:金融/保险",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:销售/门店",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:entry_rate:餐饮/厨房",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_annual_rate:entry_rate",
+      "passed": true,
+      "detail": {
+        "recomputed_percent": 69.44463226625372,
+        "reported_percent": 69.4446,
+        "valid_strata": 21,
+        "target_mass_retained": 0.9808943109081528
+      }
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:交通服务",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:产品经理",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:人力/行政",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:医疗/护理",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:咨询/顾问",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:媒体/创意",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:安保/物业",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:实习/管培/兼职",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:客服/售后",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:家政/保洁/保姆",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:建筑/施工",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:技术/工程",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:教育/培训",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:法务/合规",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:演艺/礼仪",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:物流/配送/驾驶",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:生产/制造/技工",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:算法/人工智能",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:管理/高管",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:美容/美发",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:翻译/语言",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:设计",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:财务/审计",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:质量/质检",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:运营/市场/内容",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:采购/供应链",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:金融/保险",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:销售/门店",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:edu_unlimited:餐饮/厨房",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_annual_rate:edu_unlimited",
+      "passed": true,
+      "detail": {
+        "recomputed_percent": 25.59017607191514,
+        "reported_percent": 25.5902,
+        "valid_strata": 21,
+        "target_mass_retained": 0.9808943109081528
+      }
+    },
+    {
+      "name": "2025_endpoint:ba_plus:交通服务",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:产品经理",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:人力/行政",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:医疗/护理",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:咨询/顾问",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:媒体/创意",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:安保/物业",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:实习/管培/兼职",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:客服/售后",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:家政/保洁/保姆",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:建筑/施工",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:技术/工程",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:教育/培训",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:法务/合规",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:演艺/礼仪",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:物流/配送/驾驶",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:生产/制造/技工",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:算法/人工智能",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:管理/高管",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:美容/美发",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:翻译/语言",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:设计",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:财务/审计",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:质量/质检",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:运营/市场/内容",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:采购/供应链",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:金融/保险",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:销售/门店",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_endpoint:ba_plus:餐饮/厨房",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2025_annual_rate:ba_plus",
+      "passed": true,
+      "detail": {
+        "recomputed_percent": 26.10721409465692,
+        "reported_percent": 26.1072,
+        "valid_strata": 21,
+        "target_mass_retained": 0.9808943109081528
+      }
+    },
+    {
+      "name": "synthetic_tied_ranks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_kitagawa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_reject_empty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_reject_all_zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "synthetic_reject_one_rank",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "TV": 0.5569816003782312,
+  "PSI": [
+    0.7272727272727273,
+    0.45454545454545453,
+    0.4545454545454546,
+    0.3181818181818182,
+    0.7727272727272727,
+    0.6363636363636364,
+    0.22727272727272727,
+    0.45454545454545453,
+    0.045454545454545456,
+    0.40909090909090906,
+    0.7272727272727273,
+    0.7727272727272727
+  ],
+  "MRI": [
+    0.4545454545454545,
+    0.5636363636363636,
+    0.9636363636363636,
+    0.7454545454545455,
+    0.509090909090909,
+    0.5454545454545454,
+    0.2545454545454545,
+    0.05454545454545454,
+    0.8545454545454545,
+    0.2363636363636364,
+    0.14545454545454545,
+    0.6727272727272726
+  ],
+  "descriptive_quadrants": [
+    "Q2",
+    "Q3",
+    "Q1",
+    "Q3",
+    "Q2",
+    "Q1",
+    "Q4",
+    "Q4",
+    "Q3",
+    "Q4",
+    "Q2",
+    "Q1"
+  ],
+  "recruitment_decomposition": [
+    {
+      "indicator": "ai_tool",
+      "t0": 2021,
+      "t1": 2022,
+      "composition": 0.0,
+      "within": 0.0,
+      "delta": 0.0,
+      "closure": 0.0,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "ai_tool",
+      "t0": 2022,
+      "t1": 2023,
+      "composition": -9.501128687849742e-07,
+      "within": 9.62911158561364e-05,
+      "delta": 9.534100298735144e-05,
+      "closure": -1.3552527156068805e-20,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "ai_tool",
+      "t0": 2023,
+      "t1": 2024,
+      "composition": -1.5322646769387467e-05,
+      "within": 5.979832857308778e-05,
+      "delta": 4.4475681803700314e-05,
+      "closure": 0.0,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "ai_tool",
+      "t0": 2021,
+      "t1": 2024,
+      "composition": -2.6854922597234393e-05,
+      "within": 0.00016667160738828614,
+      "delta": 0.00013981668479105174,
+      "closure": 0.0,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "ai_rate",
+      "t0": 2021,
+      "t1": 2022,
+      "composition": -0.0013034083984387605,
+      "within": -0.0019340156731635627,
+      "delta": -0.0032374240716023235,
+      "closure": 4.336808689942018e-19,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "ai_rate",
+      "t0": 2022,
+      "t1": 2023,
+      "composition": -0.0001230726334656258,
+      "within": 0.0001642929510274196,
+      "delta": 4.1220317561794096e-05,
+      "closure": -2.981555974335137e-19,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "ai_rate",
+      "t0": 2023,
+      "t1": 2024,
+      "composition": 0.0015453420903464186,
+      "within": 0.00316233556150031,
+      "delta": 0.004707677651846728,
+      "closure": 0.0,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "ai_rate",
+      "t0": 2021,
+      "t1": 2024,
+      "composition": -9.816330503628866e-05,
+      "within": 0.0016096372028424873,
+      "delta": 0.0015114738978061991,
+      "closure": -4.336808689942018e-19,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "entry_rate",
+      "t0": 2021,
+      "t1": 2022,
+      "composition": 0.0003786965789656756,
+      "within": 0.0013392413744098561,
+      "delta": 0.001717937953375502,
+      "closure": 2.992397996059992e-17,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "entry_rate",
+      "t0": 2022,
+      "t1": 2023,
+      "composition": 0.0010116368244542943,
+      "within": -0.014277900347638208,
+      "delta": -0.013266263523183887,
+      "closure": -2.6020852139652106e-17,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "entry_rate",
+      "t0": 2023,
+      "t1": 2024,
+      "composition": 0.010536918100501301,
+      "within": -0.012163454570061743,
+      "delta": -0.0016265364695604502,
+      "closure": 8.023096076392733e-18,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "entry_rate",
+      "t0": 2021,
+      "t1": 2024,
+      "composition": 0.01581722787897259,
+      "within": -0.02899208991834142,
+      "delta": -0.01317486203936884,
+      "closure": 1.0408340855860843e-17,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "exp_level_mean",
+      "t0": 2021,
+      "t1": 2022,
+      "composition": -0.005125750131686914,
+      "within": -0.008656975734258481,
+      "delta": -0.013782725865945405,
+      "closure": 1.0408340855860843e-17,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "exp_level_mean",
+      "t0": 2022,
+      "t1": 2023,
+      "composition": -0.003661492385358303,
+      "within": 0.04333743968963434,
+      "delta": 0.039675947304276045,
+      "closure": -6.938893903907228e-18,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "exp_level_mean",
+      "t0": 2023,
+      "t1": 2024,
+      "composition": -0.030597340286306722,
+      "within": 0.01611111049238098,
+      "delta": -0.014486229793925736,
+      "closure": -5.204170427930421e-18,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "exp_level_mean",
+      "t0": 2021,
+      "t1": 2024,
+      "composition": -0.05086506089971055,
+      "within": 0.06227205254411546,
+      "delta": 0.011406991644404903,
+      "closure": 6.938893903907228e-18,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "ba_plus",
+      "t0": 2021,
+      "t1": 2022,
+      "composition": -0.0040923662230669304,
+      "within": -0.004367552809073795,
+      "delta": -0.008459919032140724,
+      "closure": -1.734723475976807e-18,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "ba_plus",
+      "t0": 2022,
+      "t1": 2023,
+      "composition": -0.0027886363221498963,
+      "within": 0.0025526408920304943,
+      "delta": -0.00023599543011940295,
+      "closure": 9.215718466126788e-19,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "ba_plus",
+      "t0": 2023,
+      "t1": 2024,
+      "composition": -0.016210775566074163,
+      "within": 0.04345798660598861,
+      "delta": 0.027247211039914454,
+      "closure": -6.938893903907228e-18,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "ba_plus",
+      "t0": 2021,
+      "t1": 2024,
+      "composition": -0.02612699032219972,
+      "within": 0.04467828689985404,
+      "delta": 0.01855129657765433,
+      "closure": -6.938893903907228e-18,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "wage_mean_log",
+      "t0": 2021,
+      "t1": 2022,
+      "composition": -0.012356371090770223,
+      "within": 0.04238201804077821,
+      "delta": 0.03002564695000815,
+      "closure": -1.6653345369377348e-16,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "wage_mean_log",
+      "t0": 2022,
+      "t1": 2023,
+      "composition": -0.0057583947694100895,
+      "within": -0.0012169563356052265,
+      "delta": -0.006975351105015329,
+      "closure": 1.3010426069826053e-17,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "wage_mean_log",
+      "t0": 2023,
+      "t1": 2024,
+      "composition": 0.008569268680693581,
+      "within": 0.11445486653034942,
+      "delta": 0.12302413521104286,
+      "closure": 1.3877787807814457e-16,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    },
+    {
+      "indicator": "wage_mean_log",
+      "t0": 2021,
+      "t1": 2024,
+      "composition": -0.011672716399118072,
+      "within": 0.1577471474551539,
+      "delta": 0.14607443105603568,
+      "closure": 1.3877787807814457e-16,
+      "common_strata": 29,
+      "dropped_strata": 0,
+      "original_mass0": 1.0,
+      "original_mass1": 1.0
+    }
+  ],
+  "adjustment_2025": {
+    "ai_rate": 1.5380286197350574,
+    "ai_tool": 0.12170875053619153,
+    "entry_rate": 69.44463226625372,
+    "edu_unlimited": 25.59017607191514,
+    "ba_plus": 26.10721409465692
+  },
+  "adjustment_branches": {
+    "interpolated": 95,
+    "carried_2024": 10,
+    "carried_2026": 0,
+    "missing": 40
+  },
+  "not_recomputed": [
+    "Frozen TV double-bootstrap CI: upstream bootstrap draws and final generating implementation not recovered",
+    "Public Kitagawa underlying channel-length sufficient table unavailable in retained exports",
+    "Temporal empirical p-values: original estimates remain snapshots, not reestimated",
+    "Raw data retrieval, preprocessing, classifiers, annotation and privacy-protected corpora excluded"
+  ]
+}

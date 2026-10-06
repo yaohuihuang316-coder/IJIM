@@ -1,0 +1,149 @@
+﻿file,field,definition
+sample_flow.csv,variable,"Named aggregate sample-flow object; API labels are machine-teacher labels, not error-free human gold labels."
+sample_flow.csv,value,Frozen value for the named item or variable; consult unit and dataset scope.
+annual_sentiment.csv,year,Calendar year; 2026 is a partial collection window ending 18 September.
+annual_sentiment.csv,positive_rate,Positive percentage among the specified classifiable-polarity population.
+annual_sentiment.csv,pos_lo,Lower 95% video-cluster bootstrap bound for positive_rate.
+annual_sentiment.csv,pos_hi,Upper 95% video-cluster bootstrap bound for positive_rate.
+annual_sentiment.csv,negative_rate,Negative percentage among the specified classifiable-polarity population.
+annual_sentiment.csv,neg_lo,Lower 95% video-cluster bootstrap bound for negative_rate.
+annual_sentiment.csv,neg_hi,Upper 95% video-cluster bootstrap bound for negative_rate.
+annual_sentiment.csv,net,"Positive minus negative rate, in percentage points; not a topic-prevalence measure."
+annual_sentiment.csv,denominator,Annual public main-analysis denominator; not total platform users.
+topic_sentiment.csv,topic_en,Aggregate topic category; labels available in API-labelled comments only.
+topic_sentiment.csv,n,Number of comments supporting this aggregate topic cell.
+topic_sentiment.csv,neg,Observed negative-labelled comment count supporting this topic cell.
+topic_sentiment.csv,negative_rate,Negative percentage among the specified classifiable-polarity population.
+topic_sentiment.csv,cluster95_low,Lower 95% video-cluster bootstrap bound for within-topic negative rate.
+topic_sentiment.csv,cluster95_high,Upper 95% video-cluster bootstrap bound for within-topic negative rate.
+education_topic.csv,year,Calendar year; 2026 is a partial collection window ending 18 September.
+education_topic.csv,topic_negative_rate_pct,"100 * neg / n_topic_obs: within-topic negative rate, NOT topic share."
+education_topic.csv,topic_share_pct,"Share of the topic among the eligible yearly topic population, in percent."
+education_topic.csv,n_topic_obs,Observed labelled comments in the learning/education topic for this year.
+education_topic.csv,neg,Observed negative-labelled comment count supporting this topic cell.
+topic_annual.csv,year,Calendar year; 2026 is a partial collection window ending 18 September.
+topic_annual.csv,topic_en,Aggregate topic category; labels available in API-labelled comments only.
+topic_annual.csv,n,Number of comments supporting this aggregate topic cell.
+topic_annual.csv,positive_rate,Positive percentage among the specified classifiable-polarity population.
+topic_annual.csv,negative_rate,Negative percentage among the specified classifiable-polarity population.
+topic_annual.csv,net,"Positive minus negative rate, in percentage points; not a topic-prevalence measure."
+topic_annual.csv,net_ci_low,Lower 95% video-cluster bootstrap bound for topic net sentiment.
+topic_annual.csv,net_ci_high,Upper 95% video-cluster bootstrap bound for topic net sentiment.
+topic_annual.csv,topic_share_pct,"Share of the topic among the eligible yearly topic population, in percent."
+recruitment_occupation.csv,year,Calendar year; 2026 is a partial collection window ending 18 September.
+recruitment_occupation.csv,occupation_group,Detailed recruitment occupation category (29-category mapping).
+recruitment_occupation.csv,share,"Recruitment occupation fraction (0 to 1), observed or adjusted as share_type indicates."
+recruitment_occupation.csv,share_pct,Recruitment occupation percentage (0 to 100).
+recruitment_occupation.csv,share_type,Observed versus interpolated/adjusted occupational composition; do not collapse the distinction.
+recruitment_occupation.csv,denominator_scope,Named recruitment source-track denominator; not the entire recruitment corpus.
+recruitment_ai.csv,year,Calendar year; 2026 is a partial collection window ending 18 September.
+recruitment_ai.csv,ai_total_rate,"Percentage of advertisements with any AI requirement, using the rule column."
+recruitment_ai.csv,ai_tool_rate,Percentage of advertisements requiring AI-tool use.
+recruitment_ai.csv,ai_rd_rate,Percentage of advertisements requiring AI research/development.
+recruitment_ai.csv,ai_general_rate,Percentage of advertisements requiring general AI capability.
+recruitment_ai.csv,denominator_n,Source-track count for the year; adjusted 2025 estimates are not crude ratios of this count.
+recruitment_ai.csv,rule,contains is the main AI rule; exact-member rows are sensitivity/reconciliation only.
+recruitment_ai.csv,unit,"Explicit row/dataset unit; rate may mean fraction for decomposition, percent for annual tables."
+recruitment_requirements.csv,year,Calendar year; 2026 is a partial collection window ending 18 September.
+recruitment_requirements.csv,entry_level_rate,Percentage of advertisements classified as entry-level.
+recruitment_requirements.csv,mean_experience,"Mean ordinal experience level (levels 0 to 4), not mean years."
+recruitment_requirements.csv,no_education_rate,Percentage of advertisements stating no formal education requirement.
+recruitment_requirements.csv,bachelor_or_above_rate,Percentage requiring bachelor degree or above.
+recruitment_requirements.csv,ma_or_above_rate,Percentage requiring master degree or above.
+recruitment_requirements.csv,exp_specified_rate,Percentage with a classifiable experience requirement.
+recruitment_requirements.csv,denominator_n,Source-track count for the year; adjusted 2025 estimates are not crude ratios of this count.
+recruitment_requirements.csv,unit,"Explicit row/dataset unit; rate may mean fraction for decomposition, percent for annual tables."
+public_decomposition.csv,item,Named public-decomposition output; standardized endpoint rates and common-strata total change are different estimands.
+public_decomposition.csv,value,Frozen value for the named item or variable; consult unit and dataset scope.
+public_decomposition.csv,unit,"Explicit row/dataset unit; rate may mean fraction for decomposition, percent for annual tables."
+recruitment_decomposition.csv,window,Named endpoint comparison window; distinct windows must not be pooled as independent time observations.
+recruitment_decomposition.csv,indicator,"Recruitment outcome identifier: ai_tool, ai_rate, entry_rate, exp_level_mean, ba_plus or wage_mean_log."
+recruitment_decomposition.csv,unit,"Explicit row/dataset unit; rate may mean fraction for decomposition, percent for annual tables."
+recruitment_decomposition.csv,within_component,"Kitagawa within-occupation component, in the row unit."
+recruitment_decomposition.csv,composition_component,"Kitagawa occupational-composition component, in the row unit."
+recruitment_decomposition.csv,delta_total,Kitagawa total change; equals within_component + composition_component.
+recruitment_decomposition.csv,abs_within_share,abs(within)/(abs(within)+abs(composition)); NA when both components are zero.
+recruitment_decomposition.csv,abs_composition_share,abs(composition)/(abs(within)+abs(composition)); NA when both are zero.
+recruitment_decomposition.csv,sign_opposite,Whether nonzero within and composition components have opposite signs.
+recruitment_decomposition.csv,degenerate_baseline,Flag for the baseline without cross-occupation variation; affects eligible criterion denominator.
+occupational_distance.csv,occupation12,Broad occupational category (12-category mapping).
+occupational_distance.csv,recruitment_share,Recruitment occupation fraction in the frozen shared structural comparison window.
+occupational_distance.csv,corrected_public_share,Precision-corrected public occupational-signal fraction; not population prevalence.
+occupational_distance.csv,pi,"Category-specific lexical precision estimate from the 2,106-annotation window-specific validation."
+occupational_distance.csv,public_share_observed,Uncorrected public occupational-signal fraction.
+occupational_distance.csv,contrib,"0.5 * abs(corrected_public_share - recruitment_share), subject to exported rounding."
+distance_summary.csv,metric,Named aggregate metric; creator primary metric neg_rate_polOK uses employment-related comments with classifiable polarity.
+distance_summary.csv,estimate,Frozen scalar estimate for the named metric; not recalculated sampling inference.
+distance_summary.csv,lower_ci,"Frozen lower 95% bound; NA means not produced, not zero."
+distance_summary.csv,upper_ci,"Frozen upper 95% bound; NA means not produced, not zero."
+distance_summary.csv,unit,"Explicit row/dataset unit; rate may mean fraction for decomposition, percent for annual tables."
+power_audit.csv,block,"Power simulation result block: grid, MDE or calibration block; use specified filters."
+power_audit.csv,T_eff,"Effective estimation periods, not all collection months."
+power_audit.csv,G_nocc,Number of occupational groups.
+power_audit.csv,phi,Autoregressive parameter in the frozen power simulation.
+power_audit.csv,kind,Power simulation specification role.
+power_audit.csv,beta_std_target,Simulation target effect on within-standardized scale.
+power_audit.csv,beta_std_realized,Realized absolute standardized effect used in the power curve.
+power_audit.csv,power_calibrated_main,Rejection frequency under the size-calibrated main permutation criterion.
+power_audit.csv,binom_se,"Binomial simulation standard error, not a confidence interval."
+power_audit.csv,MDE80_calibrated,Effect magnitude giving 80% size-calibrated power in the frozen simulation.
+temporal_specifications.csv,family,Predefined temporal-window specification family.
+temporal_specifications.csv,main_or_expanded,main: 48 estimable main-window tests; expanded: 288 other estimable tests; all estimable = 336.
+temporal_specifications.csv,scale,Annual or half-year aggregation.
+temporal_specifications.csv,lag,Lag in the corresponding aggregation units.
+temporal_specifications.csv,S_metric,Public-side aggregate metric identifier.
+temporal_specifications.csv,M_metric,Recruitment-side aggregate metric identifier.
+temporal_specifications.csv,direction,Direction of temporal association specification; not a causal identification claim.
+temporal_specifications.csv,status,ok = estimable; other states are retained non-estimable specifications.
+temporal_specifications.csv,n_units_kept,Eligible occupational units retained in this specification.
+temporal_specifications.csv,T_eff_used,Effective periods used by the estimator.
+temporal_specifications.csv,effect,Within-scale standardized effect beta*.
+temporal_specifications.csv,p_raw,Centered-permutation p-value for the main decision rule.
+temporal_specifications.csv,p_adjusted_bonferroni_within_window,"min(1, p_raw * number of specifications in that temporal window)."
+temporal_specifications.csv,ci_low,Frozen inferential lower bound for temporal effect.
+temporal_specifications.csv,ci_high,Frozen inferential upper bound for temporal effect.
+occupation_indices.csv,occupation12,Broad occupational category (12-category mapping).
+occupation_indices.csv,occupation12_en,English broad occupation label.
+occupation_indices.csv,occupation12_short_en,Short English plot label.
+occupation_indices.csv,public_index_rank,PSI: equal-weight mean of percentile ranks of corrected public share and corrected negative rate.
+occupation_indices.csv,recruitment_index_rank,MRI: equal-weight mean of percentile ranks of five absolute within-occupation endpoint changes.
+occupation_indices.csv,quadrant_en,"Descriptive median-cut PSI/MRI profile, not an identified stable cluster."
+occupation_indices.csv,market_share,Recruitment occupation fraction for the profile.
+occupation_indices.csv,psi_component_sP_adj,Corrected public occupational share used in PSI.
+occupation_indices.csv,psi_component_neg_adj,Corrected occupational negative rate (fraction) used in PSI.
+occupation_indices.csv,mri_abs_d_entry,Absolute 2024 minus 2022 change in entry-level rate (fraction).
+occupation_indices.csv,mri_abs_d_exp,Absolute 2024 minus 2022 change in mean ordinal experience.
+occupation_indices.csv,mri_abs_d_ba,Absolute 2024 minus 2022 change in bachelor-or-above rate (fraction).
+occupation_indices.csv,mri_abs_d_ai,Absolute 2024 minus 2022 change in AI requirement rate (fraction).
+occupation_indices.csv,mri_abs_d_wage,Absolute 2024 minus 2022 change in mean log wage.
+creator_variance.csv,metric,Named aggregate metric; creator primary metric neg_rate_polOK uses employment-related comments with classifiable polarity.
+creator_variance.csv,layer,Creator activity stratum; strata differ in composition and are not exchangeable.
+creator_variance.csv,video_n,Number of videos with a nonzero primary metric denominator in this stratum.
+creator_variance.csv,video_n_in_layer,Number of videos before excluding zero-denominator cases.
+creator_variance.csv,dropped_denom_zero,Number of videos excluded because the metric denominator is zero.
+creator_variance.csv,up_n,Aggregate count of eligible content creators; no creator identities are supplied.
+creator_variance.csv,between_up_share,Between-creator share of video-level variance (0 to 1).
+creator_variance.csv,within_up_share,Within-creator share of video-level variance (0 to 1).
+creator_variance.csv,rate_pooled,Pooled employment-related negative rate with classifiable polarity denominator.
+irony_distance.csv,variant,base=precision-corrected baseline; v1=observed irony removal; v2=weighted occupation-specific extrapolation; v3=unweighted extrapolation; unif=uniform-public benchmark.
+irony_distance.csv,TV,"Total variation distance (0 to 1), descriptive sensitivity point estimate."
+monthly_support.csv,year,Calendar year of observed public corpus support.
+monthly_support.csv,month,Calendar month 1 to 12.
+monthly_support.csv,observed_comments,"Number of retained observed public comments in the month/year cell; sample support, not discussion intensity. Empty outside collection window."
+monthly_support.csv,support_status,observed or outside_collection_window; never coerce latter to zero.
+recruitment_annual_table_source.csv,Year,Recruitment year; 2025 adjusted rates and 2026 partial collection window.
+recruitment_annual_table_source.csv,Observed track records,Observed record count in the frozen Zhilian source track; not the empirical denominator of adjusted 2025 percentages.
+recruitment_annual_table_source.csv,Any AI requirement (%),Main contains-rule AI requirement percentage.
+recruitment_annual_table_source.csv,AI tool requirement (%),AI-tool requirement percentage.
+recruitment_annual_table_source.csv,Entry-level (%),Entry-level advertisement percentage.
+recruitment_annual_table_source.csv,No formal education (%),Percentage stating no formal education requirement.
+recruitment_annual_table_source.csv,Bachelor+ (%),Percentage requiring a bachelor degree or above.
+recruitment_annual_table_source.csv,Specification,"Observed, adjusted 2025 rates, or partial 2026 window."
+main_table_02.csv,Year,Recruitment year; 2025 adjusted rates and 2026 partial collection window.
+main_table_02.csv,Observed track records,Observed record count in the frozen Zhilian source track; not the empirical denominator of adjusted 2025 percentages.
+main_table_02.csv,Any AI requirement (%),Main contains-rule AI requirement percentage.
+main_table_02.csv,AI tool requirement (%),AI-tool requirement percentage.
+main_table_02.csv,Entry-level (%),Entry-level advertisement percentage.
+main_table_02.csv,No formal education (%),Percentage stating no formal education requirement.
+main_table_02.csv,Bachelor+ (%),Percentage requiring a bachelor degree or above.
+main_table_02.csv,Specification,"Observed, adjusted 2025 rates, or partial 2026 window."

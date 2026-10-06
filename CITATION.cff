@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this aggregate data and analysis code package when using it. Add the actual repository URL and immutable release identifier after deposition."
+type: dataset
+title: "Aggregate data and code for cross-source labour-market information analysis"
+authors:
+  - family-names: Huang
+    given-names: Yaohui
+version: "2026-10-07"
+abstract: "De-identified aggregate inputs, selected sufficient statistics and offline code for reported displays and selected aggregate-derived analyses. Restricted record- and cluster-level analyses are not fully rerunnable from this package."

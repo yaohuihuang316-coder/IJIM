@@ -1,0 +1,6 @@
+# Only the synthetic power replay needs third-party dependencies.
+# Tested with bundled Python 3.12. Python >=3.11 is required by pandas 3.0.
+# recompute_metrics.py uses the Python standard library only.
+# These are the locally tested versions, not a claim about the historical run environment.
+numpy==2.3.5
+pandas==3.0.1

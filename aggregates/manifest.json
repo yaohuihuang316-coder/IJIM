@@ -1,0 +1,494 @@
+{
+  "status": "CURATED REPOSITORY PACKAGE; availability is established only by the actual hosting URL; no new reuse licence granted",
+  "datasets": [
+    {
+      "file": "data/sample_flow.csv",
+      "rows": 17,
+      "fields": [
+        "variable",
+        "value"
+      ],
+      "figure_or_table": "Figure 1; Table 1",
+      "sha256": "b51b8ad3cb6164deb3b620ce6ab71d0c0c316bc18d84f75f20c63facdce1dfaf",
+      "source_basename": "A_fig1_samples.csv",
+      "source_sha256": "c80239b8ef84e04f64966aa2e1613c4d59d651db3849dae8bb20e6715d600046",
+      "rows_before": 17,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/annual_sentiment.csv",
+      "rows": 6,
+      "fields": [
+        "year",
+        "positive_rate",
+        "pos_lo",
+        "pos_hi",
+        "negative_rate",
+        "neg_lo",
+        "neg_hi",
+        "net",
+        "denominator"
+      ],
+      "figure_or_table": "Figure 3a",
+      "sha256": "6453c3dc171f4c9cf539bc9a8d0859e48f12ad76bea017d8f04a2b024cd21072",
+      "source_basename": "A_fig2a_annual.csv",
+      "source_sha256": "6453c3dc171f4c9cf539bc9a8d0859e48f12ad76bea017d8f04a2b024cd21072",
+      "rows_before": 6,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/topic_sentiment.csv",
+      "rows": 7,
+      "fields": [
+        "topic_en",
+        "n",
+        "neg",
+        "negative_rate",
+        "cluster95_low",
+        "cluster95_high"
+      ],
+      "figure_or_table": "Figure 3b",
+      "sha256": "9b4882279da0853355fa163cfcff17bcb2fa68d2c526afd75de4c07841fc421b",
+      "source_basename": "A_fig2b_topics.csv",
+      "source_sha256": "c553dabe0ccbe4ffbde7e3abd2fa2d52c60d9a9420017e3e6cf35e1c67444466",
+      "rows_before": 7,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/education_topic.csv",
+      "rows": 6,
+      "fields": [
+        "year",
+        "topic_negative_rate_pct",
+        "topic_share_pct",
+        "n_topic_obs",
+        "neg"
+      ],
+      "figure_or_table": "Figure 3c",
+      "sha256": "2cc7352d52652c0fbce1f3dc94276b3e255ec3ed08ba75579e6a0548bfb1281e",
+      "source_basename": "A_fig2c_education_TWO_series.csv",
+      "source_sha256": "2cc7352d52652c0fbce1f3dc94276b3e255ec3ed08ba75579e6a0548bfb1281e",
+      "rows_before": 6,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/topic_annual.csv",
+      "rows": 36,
+      "fields": [
+        "year",
+        "topic_en",
+        "n",
+        "positive_rate",
+        "negative_rate",
+        "net",
+        "net_ci_low",
+        "net_ci_high",
+        "topic_share_pct"
+      ],
+      "figure_or_table": "Figure 3d",
+      "sha256": "99388ba27d06671dc04f7c5d8948fa4109c7f9b60c2cf7a880c17dc73ee13a30",
+      "source_basename": "A_fig2_topic_year_polarity_36rows.csv",
+      "source_sha256": "d981db689edb5597b2f052532bb03cf7eed47d5644ea9144476cd55c2fbfe4f1",
+      "rows_before": 36,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/recruitment_occupation.csv",
+      "rows": 174,
+      "fields": [
+        "year",
+        "occupation_group",
+        "share",
+        "share_pct",
+        "share_type",
+        "denominator_scope"
+      ],
+      "figure_or_table": "Figure 4a",
+      "sha256": "b0e82bd142599176aa3ed06dedc25b3ee3cacdf1fe245bb2c8b82f0b59430615",
+      "source_basename": "B_fig3a_occupation_share.csv",
+      "source_sha256": "9e72642445e7fc18d5386f4835158bed8717a72a7b202b98c1c12fc7bbbada5f",
+      "rows_before": 174,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/recruitment_ai.csv",
+      "rows": 12,
+      "fields": [
+        "year",
+        "ai_total_rate",
+        "ai_tool_rate",
+        "ai_rd_rate",
+        "ai_general_rate",
+        "denominator_n",
+        "rule",
+        "unit"
+      ],
+      "figure_or_table": "Figure 4b",
+      "sha256": "b0bf0f3e2b016c788c9f661e798d934db71396557bf6e138a24257c571701ff3",
+      "source_basename": "B_fig3b_ai_rate.csv",
+      "source_sha256": "3e11827078b41842b736928b30085ea58b949ea6f348fdd3ae9042afdcb14cc8",
+      "rows_before": 12,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/recruitment_requirements.csv",
+      "rows": 6,
+      "fields": [
+        "year",
+        "entry_level_rate",
+        "mean_experience",
+        "no_education_rate",
+        "bachelor_or_above_rate",
+        "ma_or_above_rate",
+        "exp_specified_rate",
+        "denominator_n",
+        "unit"
+      ],
+      "figure_or_table": "Figure 4c,d",
+      "sha256": "a043ac1be3c2143f6c1f50f79d9dbe760209b08d4a2de172921c9358baad4c72",
+      "source_basename": "B_fig3c_experience_education.csv",
+      "source_sha256": "36196ed17c8deec95dc41a61590d8a70d89db7537abdc376c1990bafad8351d4",
+      "rows_before": 6,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/public_decomposition.csv",
+      "rows": 36,
+      "fields": [
+        "item",
+        "value",
+        "unit"
+      ],
+      "figure_or_table": "Figure 5a",
+      "sha256": "a8a851ab2518058adc69143742018473136dcd693c84b68af985cadaf6655a0d",
+      "source_basename": "C_fig4_fig5_fig4a_public_decomposition.csv",
+      "source_sha256": "915f836d31df176096eea656f79dee8f6cdf303ddf3bcea0647e104a360ef88c",
+      "rows_before": 49,
+      "rows_excluded": 13
+    },
+    {
+      "file": "data/recruitment_decomposition.csv",
+      "rows": 24,
+      "fields": [
+        "window",
+        "indicator",
+        "unit",
+        "within_component",
+        "composition_component",
+        "delta_total",
+        "abs_within_share",
+        "abs_composition_share",
+        "sign_opposite",
+        "degenerate_baseline"
+      ],
+      "figure_or_table": "Figure 5b",
+      "sha256": "d501e29ac66dde79dc2e7d3bc245ec54be7980faf24da743346b44f6084a938b",
+      "source_basename": "C_fig4_fig5_fig4b_c6_main24.csv",
+      "source_sha256": "ff4c23674384b2e55d4b0a6b1e306bcf8b71af9ec6b90ff852b9592201565d49",
+      "rows_before": 24,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/occupational_distance.csv",
+      "rows": 12,
+      "fields": [
+        "occupation12",
+        "recruitment_share",
+        "corrected_public_share",
+        "pi",
+        "public_share_observed",
+        "contrib"
+      ],
+      "figure_or_table": "Figure 6",
+      "sha256": "08e40319c0d4de794e0238b9c9029dc3cf269115ef7bee32d4eb0dcaeab1cffd",
+      "source_basename": "C_fig4_fig5_fig5b_l12_shares.csv",
+      "source_sha256": "c3ef364ff12eb1195a87e17b02dcac1462f5622f480c426fc9fd5f34176253cf",
+      "rows_before": 12,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/distance_summary.csv",
+      "rows": 3,
+      "fields": [
+        "metric",
+        "estimate",
+        "lower_ci",
+        "upper_ci",
+        "unit"
+      ],
+      "figure_or_table": "Table 3; Figure 6 caption",
+      "sha256": "09d4dbc1a2d554422d702bac3f4eaa1e8ce09c20edae8697e3822dbd9bdf25d2",
+      "source_basename": "C_fig4_fig5_fig5a_tv.csv",
+      "source_sha256": "371c03eac135042bab64e4319ab84075eeb16620db2670ac3ae21f611856b0de",
+      "rows_before": 15,
+      "rows_excluded": 12
+    },
+    {
+      "file": "data/power_audit.csv",
+      "rows": 84,
+      "fields": [
+        "block",
+        "T_eff",
+        "G_nocc",
+        "phi",
+        "kind",
+        "beta_std_target",
+        "beta_std_realized",
+        "power_calibrated_main",
+        "binom_se",
+        "MDE80_calibrated"
+      ],
+      "figure_or_table": "Figure 7a",
+      "sha256": "f7d2349efb77274fdf5a4589e2a811397db9e8f631535178e88df96a85094377",
+      "source_basename": "D_fig6a_power_audit.csv",
+      "source_sha256": "ee281857e592fd9eb1fdb292a48d363aecf5dbf88c10fdd8b855ad1a67f66a95",
+      "rows_before": 84,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/temporal_specifications.csv",
+      "rows": 360,
+      "fields": [
+        "family",
+        "main_or_expanded",
+        "scale",
+        "lag",
+        "S_metric",
+        "M_metric",
+        "direction",
+        "status",
+        "n_units_kept",
+        "T_eff_used",
+        "effect",
+        "p_raw",
+        "p_adjusted_bonferroni_within_window",
+        "ci_low",
+        "ci_high"
+      ],
+      "figure_or_table": "Figure 7b",
+      "sha256": "0cd07b171ca61790e9ce4cb285a3094c56f57e55eb8fc5372cb321a3ba64f9f3",
+      "source_basename": "F6_specifications.csv",
+      "source_sha256": "a8c12426a5bc0d7320c70d2ca6258fdfb72b5326b729d604a8a94b0bb174f458",
+      "rows_before": 360,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/occupation_indices.csv",
+      "rows": 12,
+      "fields": [
+        "occupation12",
+        "occupation12_en",
+        "occupation12_short_en",
+        "public_index_rank",
+        "recruitment_index_rank",
+        "quadrant_en",
+        "market_share",
+        "psi_component_sP_adj",
+        "psi_component_neg_adj",
+        "mri_abs_d_entry",
+        "mri_abs_d_exp",
+        "mri_abs_d_ba",
+        "mri_abs_d_ai",
+        "mri_abs_d_wage"
+      ],
+      "figure_or_table": "Figure 8; Supplementary Table 3",
+      "sha256": "a07aa139f7dc9dfba77b6c912058ad94562039a48eb09f050b86910c07c540d5",
+      "source_basename": "F7_occupation_indices.csv",
+      "source_sha256": "6c10d8a451562bafbf2448a9ee39020a431c69ca8caf80a463e577fba22ac724",
+      "rows_before": 12,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/creator_variance.csv",
+      "rows": 15,
+      "fields": [
+        "metric",
+        "layer",
+        "video_n",
+        "video_n_in_layer",
+        "dropped_denom_zero",
+        "up_n",
+        "between_up_share",
+        "within_up_share",
+        "rate_pooled"
+      ],
+      "figure_or_table": "Figure 9",
+      "sha256": "a40bc84f2c49af9bef1b9d21edb808140df906ad1f7f3e3d5e489747c3046cb0",
+      "source_basename": "D_S1_up_variance.csv",
+      "source_sha256": "97e0102900c2f1b00079895818df7d4e8f1bd10ef16c1588e0c6d5b8b8515410",
+      "rows_before": 15,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/irony_distance.csv",
+      "rows": 5,
+      "fields": [
+        "variant",
+        "TV"
+      ],
+      "figure_or_table": "Figure 10",
+      "sha256": "f0882d8b7ba78b850d04211642fe5e271ac6c7421be81b998e15ec81e5ad7ae7",
+      "source_basename": "D_S3_irony_TV.csv",
+      "source_sha256": "1825077fb2d8b86822677e2ba47ac91c4fe46379a15ead973544210e2bcd2f5c",
+      "rows_before": 5,
+      "rows_excluded": 0
+    },
+    {
+      "file": "data/main_table_01.csv",
+      "rows": 8,
+      "fields": [
+        "Analysis object",
+        "Observations or units",
+        "Interpretation"
+      ],
+      "figure_or_table": "main table 1",
+      "sha256": "51de2eb403a9565dbeff295f97d488113b564de7e7c7e9e0b38c99553e958d16",
+      "source_basename": "IPM_Anonymous_Manuscript.docx",
+      "source_sha256": "0525def01cec93f87eb76533f87e231204f4e946e7e4b9d3347a3634010fbf06",
+      "table_number": 1,
+      "scope": "Transcription of displayed table; values retain manuscript rounding, not full-precision analysis input."
+    },
+    {
+      "file": "data/main_table_03.csv",
+      "rows": 6,
+      "fields": [
+        "Comparison",
+        "Estimate or support",
+        "Interpretation"
+      ],
+      "figure_or_table": "main table 3 (formerly main table 2)",
+      "sha256": "fd78476e7623adb810f96a038770bc49a4acaa89c8593c110d4571bc5e62412e",
+      "source_basename": "IPM_Anonymous_Manuscript.docx",
+      "source_sha256": "0525def01cec93f87eb76533f87e231204f4e946e7e4b9d3347a3634010fbf06",
+      "table_number": 2,
+      "scope": "Transcription of displayed table; values retain manuscript rounding, not full-precision analysis input."
+    },
+    {
+      "file": "data/supplementary_table_01.csv",
+      "rows": 12,
+      "fields": [
+        "Month",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ],
+      "figure_or_table": "supplementary table 1",
+      "sha256": "a3b42f3c24d9a3a5e477b3ebef5ee470e556884e30ae959197706279f7c46a79",
+      "source_basename": "IPM_Supplementary_Material.docx",
+      "source_sha256": "1367557ace8c935c47cb69e54a624f135d71a31d8574072c1fffcdbe68857c04",
+      "table_number": 1,
+      "scope": "Transcription of displayed table; values retain manuscript rounding, not full-precision analysis input."
+    },
+    {
+      "file": "data/supplementary_table_02.csv",
+      "rows": 29,
+      "fields": [
+        "Detailed occupation",
+        "Broad class"
+      ],
+      "figure_or_table": "supplementary table 2",
+      "sha256": "1405dbe2cd8982690a391473cb7ec6080fa80de40a8d6329df103ce58f94fb7c",
+      "source_basename": "IPM_Supplementary_Material.docx",
+      "source_sha256": "1367557ace8c935c47cb69e54a624f135d71a31d8574072c1fffcdbe68857c04",
+      "table_number": 2,
+      "scope": "Transcription of displayed table; values retain manuscript rounding, not full-precision analysis input."
+    },
+    {
+      "file": "data/supplementary_table_03.csv",
+      "rows": 12,
+      "fields": [
+        "Occupation",
+        "PSI",
+        "MRI"
+      ],
+      "figure_or_table": "supplementary table 3",
+      "sha256": "9f30c5179d491d13b53d39bc3b8dea8e0d2516f9e06c3a3a5c7d5d4bece85af0",
+      "source_basename": "IPM_Supplementary_Material.docx",
+      "source_sha256": "1367557ace8c935c47cb69e54a624f135d71a31d8574072c1fffcdbe68857c04",
+      "table_number": 3,
+      "scope": "Transcription of displayed table; values retain manuscript rounding, not full-precision analysis input."
+    },
+    {
+      "file": "data/main_table_04.csv",
+      "rows": 4,
+      "fields": [
+        "Analysis",
+        "Result",
+        "Interpretation"
+      ],
+      "figure_or_table": "main table 4 (formerly supplementary table 4)",
+      "sha256": "532bfd9d108cb82a8ddcfa9563b83badc93171bff71a0ccf55fe0aac208dd9cb",
+      "source_basename": "IPM_Supplementary_Material.docx",
+      "source_sha256": "1367557ace8c935c47cb69e54a624f135d71a31d8574072c1fffcdbe68857c04",
+      "table_number": 4,
+      "scope": "Transcription of displayed table; values retain manuscript rounding, not full-precision analysis input."
+    },
+    {
+      "file": "data/monthly_support.csv",
+      "rows": 72,
+      "fields": [
+        "year",
+        "month",
+        "observed_comments",
+        "support_status"
+      ],
+      "figure_or_table": "Figure 2; Supplementary Table S1",
+      "sha256": "b7eb3270f8ed84cdffca1727f661b19dbb069b02a3985b438e0fbcc5e991c404",
+      "source_basename": "Figure_02_source_data.csv",
+      "source_sha256": "b7eb3270f8ed84cdffca1727f661b19dbb069b02a3985b438e0fbcc5e991c404",
+      "scope": "Frozen aggregate cells. Missing calendar cells retained as unavailable, not zero."
+    },
+    {
+      "file": "data/recruitment_annual_table_source.csv",
+      "rows": 6,
+      "fields": [
+        "Year",
+        "Observed track records",
+        "Any AI requirement (%)",
+        "AI tool requirement (%)",
+        "Entry-level (%)",
+        "No formal education (%)",
+        "Bachelor+ (%)",
+        "Specification"
+      ],
+      "figure_or_table": "Main Table 2: full-precision source",
+      "sha256": "0db18a57016fe5801b030a54debff73db40b7adb651a6920bf156775fa403bcc",
+      "source_basename": "Table_02_source_data.csv",
+      "source_sha256": "0db18a57016fe5801b030a54debff73db40b7adb651a6920bf156775fa403bcc",
+      "scope": "Observed source-track n; 2025 rate estimates adjusted, 2026 partial. Full precision versus displayed two-decimal rounding explicitly separated."
+    },
+    {
+      "file": "data/main_table_02.csv",
+      "rows": 6,
+      "fields": [
+        "Year",
+        "Observed track records",
+        "Any AI requirement (%)",
+        "AI tool requirement (%)",
+        "Entry-level (%)",
+        "No formal education (%)",
+        "Bachelor+ (%)",
+        "Specification"
+      ],
+      "figure_or_table": "Main Table 2: displayed rounding",
+      "sha256": "b4c3bda8b7b77a56fd5b6926beef3871f0e8a4549a437fb21615d3a4efc1619e",
+      "source_basename": "Table_02_source_data.csv",
+      "source_sha256": "0db18a57016fe5801b030a54debff73db40b7adb651a6920bf156775fa403bcc",
+      "scope": "Observed source-track n; 2025 rate estimates adjusted, 2026 partial. Full precision versus displayed two-decimal rounding explicitly separated."
+    }
+  ],
+  "missing_value": "NA, empty or em dash denotes undefined/unavailable; never coerce to zero.",
+  "raw_records_accessed": 0,
+  "display_numbers": {
+    "main_figures": 10,
+    "main_tables": 4,
+    "supplementary_tables": 3,
+    "former_main_table_2": "now main table 3",
+    "former_supplementary_table_4": "now main table 4"
+  },
+  "dataset_count": 26,
+  "data_rows": 970
+}

@@ -1,0 +1,9 @@
+﻿Analysis object,Observations or units,Interpretation
+Recruitment corpus,"472,066 advertisements",Record-level source corpus; subsets and windows differ by analysis.
+Public full corpus,"1,235,913 comments","Observed platform corpus, not a population survey."
+API / model / unlabelled,"154,351 / 1,013,908 / 67,654",Label provenance; API proportions use sampling weights.
+Public main set,"422,620 comments",Template-excluded primary analysis set.
+Occupation lexical pool,"36,713 comments (2.97%)",Share of full comment corpus; recall is not corrected.
+Structural comparison window,"4,893 occupation-linked observations",24 eligible months within January 2022–September 2024.
+Window-specific validation,"2,106 annotations",Category-specific precision correction for the structural comparison.
+Lead-lag panel,12 groups; 4 effective periods,Independent support for temporal inference.

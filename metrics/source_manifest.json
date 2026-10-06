@@ -1,0 +1,91 @@
+{
+  "assessment": "Usable with boundaries: sufficient-statistic arithmetic and original synthetic power implementation; not raw-label replication or frozen TV interval replay.",
+  "datasets": [
+    {
+      "file": "data/recruitment_occupation_year.csv",
+      "source": "data/working/yearly/occ_year.parquet",
+      "source_sha256": "e99bca187dbb1c7b4e678d76547eee1389f3e66d21f0b128298a74bf465e1a81",
+      "sha256": "b4bca7af0f947d1bc020b6f7778599aa3c171f7df1f853a81ba773119e839a37",
+      "rows": 174,
+      "columns": [
+        "occupation",
+        "year",
+        "n",
+        "n_target",
+        "ai_tool",
+        "ai_rate",
+        "entry_rate",
+        "exp_level_mean",
+        "ba_plus",
+        "wage_mean_log",
+        "edu_unlimited"
+      ]
+    },
+    {
+      "file": "data/occupation_precision_profiles.csv",
+      "source": "10_三级问题/03_分析产物/RQ3_4/RQ3_4_职业画像表.csv",
+      "source_sha256": "03c182a04445748f0b51bb36f419f3bcae7ebb100957900cc07982909326ca84",
+      "sha256": "9c98589d3ca89ae19fc20c3b5105593705994ea5e33e873f4b1be002ed4ec53f",
+      "rows": 12,
+      "columns": [
+        "L12_class",
+        "pub_rows_observed",
+        "n_genC",
+        "T_genC",
+        "neg_adj",
+        "market_share_C7Qpooled",
+        "sP_adj_genC_piWindow2106",
+        "PSI_adj_rank",
+        "MRI_rank",
+        "quad_primary",
+        "d_entry",
+        "d_exp",
+        "d_ba",
+        "d_ai",
+        "d_wage"
+      ]
+    },
+    {
+      "file": "data/recruitment_decomposition_reference.csv",
+      "source": "09_二级问题/04_运行痕迹/c6/C6_decomposition.csv",
+      "source_sha256": "3e3583455ba8bf1c807cffd55bd293dae84edaba9978c7440b9d1b3c21889979",
+      "sha256": "996a7d33ffd38ddc32b740561b744004b4a0151d2a6d1063b646593ab6c68f38",
+      "rows": 156,
+      "columns": [
+        "indicator",
+        "group",
+        "t0",
+        "t1",
+        "share_variant",
+        "Y_t0",
+        "Y_t1",
+        "comp",
+        "within",
+        "delta_total",
+        "n_occ_used"
+      ]
+    },
+    {
+      "file": "data/recruitment_annual_reference.csv",
+      "source": "IPM_投稿稿/扩展_v3_20261002/Aggregate_Data_Local_Candidate/data/recruitment_annual_table_source.csv",
+      "source_sha256": "0db18a57016fe5801b030a54debff73db40b7adb651a6920bf156775fa403bcc",
+      "sha256": "34985042cdcfd1087e55ac8df45a898a3cc52fdd5a4f039e25bb387c88848966",
+      "rows": 6,
+      "columns": [
+        "Year",
+        "Observed track records",
+        "Any AI requirement (%)",
+        "AI tool requirement (%)",
+        "Entry-level (%)",
+        "No formal education (%)",
+        "Bachelor+ (%)",
+        "Specification"
+      ]
+    }
+  ],
+  "power_generator_source_sha256": "9d9ddb09afb62de1b9c43d6402da6c9a247cda617411eac4cee25c54530303d2",
+  "power_original_script_sha256": "25382019442af2974dac88698eecb0595cbe12530980811c7bc8899a2f03a11d",
+  "raw_user_records_read": false,
+  "exported_user_identifiers": false,
+  "exported_user_text": false
+}
